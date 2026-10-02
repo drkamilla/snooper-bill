@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/vireonix/:path*",
+      "destination": "https://vireonix.ai/:path*"
+    }
+  ]
+}
