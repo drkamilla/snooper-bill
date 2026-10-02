@@ -4,7 +4,7 @@
 
 [![Network: Arc Mainnet](https://img.shields.io/badge/Network-Arc_Mainnet_5042-0052FF?style=flat-square)](https://explorer.arc.io)
 [![Gas: Native USDC](https://img.shields.io/badge/Gas-Native_USDC-2775CA?style=flat-square)](https://arc.io)
-[![Audit: Slither Passed](https://img.shields.io/badge/Static_Audit-Slither_Passed-success?style=flat-square)](./audit_report_slither.md)
+[![Audit: Slither Passed](https://img.shields.io/badge/Static_Audit-Slither_Passed-success?style=flat-square)](./audit/audit_report_slither.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)](LICENSE)
 
 Snooper Bill was engineered around a simple, uncomfortable truth in corporate finance: **most accountants and payroll clerks have never touched crypto, and the first time they are asked to execute on-chain payouts, they are terrified.**
@@ -147,7 +147,7 @@ Snooper Bill is purpose-built for Arc and solves core pain points found on tradi
 Static analysis conducted using Slither:
 * **High Severity:** `0`
 * **Medium Severity:** `0`
-* **Informational / Low:** Optimized non-reentrant storage slots via inline assembly; external batch loop confirmed atomic with state modifications recorded post-transfer. Full log available in [`audit_report_slither.md`](./audit_report_slither.md).
+* **Informational / Low:** Optimized non-reentrant storage slots via inline assembly; external batch loop confirmed atomic with state modifications recorded post-transfer. Full log available in [`audit_report_slither.md`](./audit/audit_report_slither.md).
 
 ---
 
